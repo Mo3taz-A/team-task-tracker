@@ -1,0 +1,26 @@
+{
+  "name": "team-task-tracker",
+  "version": "1.0.0",
+  "description": "Beginner-friendly Node.js training app for learning GitHub workflows.",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "training",
+    "github",
+    "nodejs",
+    "tasks"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "eslint": "^9.36.0"
+  }
+}
