@@ -52,6 +52,8 @@ function filterTasks(tasks, filter = 'all') {
       return [...tasks];
     case 'open':
       return tasks.filter((task) => task.completed === false);
+    case 'completed':
+      return tasks.filter((task) => task.completed === true);
     default:
       // Learner exercise: add `completed` support here for issue #12.
       throw new Error(`Unsupported filter: ${filter}`);
